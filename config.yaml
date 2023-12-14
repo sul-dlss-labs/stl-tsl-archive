@@ -1,0 +1,41 @@
+collection: stl-tsl
+generateWACZ: true
+screencastPort: 9037
+logging: stats,pywb,behaviors,debug,jserrors
+behaviorTimeout: 86400 
+behaviors: siteSpecific
+seeds:
+  - url: https://www.stl-tsl.org/en/the-cases/stl-11-01/indictments
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/stl-11-01/filings-and-decisions
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/stl-11-01/transcripts
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/stl-11-02/filings
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/stl-17-07/filings
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/stl-17-07/transcripts
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/stl-18-10/filings
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/stl-18-10/transcripts
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/contempt-cases/stl-14-05/filings
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/contempt-cases/stl-14-05/transcripts
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/contempt-cases/stl-14-06/filings
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/contempt-cases/stl-14-06/transcripts
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/other-matters/in-the-matter-of-el-sayed/filings
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/other-matters/in-the-matter-of-el-sayed/transcripts
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/other-matters/in-the-matter-of-el-hajj/orders-and-decisions
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/filings
+    scopeType: page
+  - url: https://www.stl-tsl.org/en/the-cases/other-matters/stl-09-misc/filings
+    scopeType: page
