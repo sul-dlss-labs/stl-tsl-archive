@@ -1,4 +1,4 @@
-This repository contains a configuration for archiving the [The Special Tribunal for Lebanon]. It contains a [custom-behavior] to automatically select and download PDFs that aren't fetched by browsertrix-crawler's standard behaviors or Archive-It.
+This repository contains a configuration for archiving the [The Special Tribunal for Lebanon] using [browsertrix-crawler]. It contains a [custom-behavior] to automatically select and download PDFs that aren't fetched by browsertrix-crawler's standard behaviors or Archive-It.
 
 [The Special Tribunal for Lebanon]: https://www.stl-tsl.org/en
 [browsertrix-crawler]: https://github.com/webrecorder/browsertrix-behavior
